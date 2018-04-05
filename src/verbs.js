@@ -2,13 +2,15 @@
    ADL.verbs = {
       "abandoned" : {
          "id" : "https://w3id.org/xapi/adl/verbs/abandoned",
-         "display" : {"en-US" : "abandoned"}
+         "display" : {"en-US" : "abandoned",
+                      "ru-RU" : "покинул",}
       },
       "answered" : {
          "id" : "http://adlnet.gov/expapi/verbs/answered",
          "display" : {"de-DE" : "beantwortete",
                       "en-US" : "answered",
                       "fr-FR" : "a répondu",
+                      "ru-RU" : "ответил",
                       "es-ES" : "contestó"}
       },
       "asked" : {
@@ -16,6 +18,7 @@
          "display" : {"de-DE" : "fragte",
                       "en-US" : "asked",
                       "fr-FR" : "a demandé",
+                      "ru-RU" : "спросил",
                       "es-ES" : "preguntó"}
       },
       "attempted" : {
@@ -23,6 +26,7 @@
          "display" : {"de-DE" : "versuchte",
                       "en-US" : "attempted",
                       "fr-FR" : "a essayé",
+                      "ru-RU" : "попытался",
                       "es-ES" : "intentó"}
       },
       "attended" : {
@@ -30,6 +34,7 @@
          "display" : {"de-DE" : "nahm teil an",
                       "en-US" : "attended",
                       "fr-FR" : "a suivi",
+                      "ru-RU" : "посетил",
                       "es-ES" : "asistió"}
       },
       "commented" : {
@@ -37,6 +42,7 @@
          "display" : {"de-DE" : "kommentierte",
                       "en-US" : "commented",
                       "fr-FR" : "a commenté",
+                      "ru-RU" : "прокоментировал",
                       "es-ES" : "comentó"}
       },
       "completed" : {
@@ -44,6 +50,7 @@
          "display" : {"de-DE" : "beendete",
                       "en-US" : "completed",
                       "fr-FR" : "a terminé",
+                      "ru-RU" : "завершил",
                       "es-ES" : "completó"}
       },
       "exited" : {
@@ -51,6 +58,7 @@
          "display" : {"de-DE" : "verließ",
                       "en-US" : "exited",
                       "fr-FR" : "a quitté",
+                      "ru-RU" : "вышел",
                       "es-ES" : "salió"}
       },
       "experienced" : {
@@ -58,6 +66,7 @@
          "display" : {"de-DE" : "erlebte",
                       "en-US" : "experienced",
                       "fr-FR" : "a éprouvé",
+                      "ru-RU" : "научился",
                       "es-ES" : "experimentó"}
       },
       "failed" : {
@@ -65,6 +74,7 @@
          "display" : {"de-DE" : "verfehlte",
                       "en-US" : "failed",
                       "fr-FR" : "a échoué",
+                      "ru-RU" : "не сдал",
                       "es-ES" : "fracasó"}
       },
       "imported" : {
@@ -79,6 +89,7 @@
          "display" : {"de-DE" : "initialisierte",
                       "en-US" : "initialized",
                       "fr-FR" : "a initialisé",
+                      "ru-RU" : "инициализирован",
                       "es-ES" : "inicializó"}
       },
       "interacted" : {
@@ -93,6 +104,7 @@
          "display" : {"de-DE" : "startete",
                       "en-US" : "launched",
                       "fr-FR" : "a lancé",
+                      "ru-RU" : "запустил",
                       "es-ES" : "lanzó"}
       },
       "mastered" : {
@@ -100,6 +112,7 @@
          "display" : {"de-DE" : "meisterte",
                       "en-US" : "mastered",
                       "fr-FR" : "a maîtrisé",
+                      "ru-RU" : "освоил",
                       "es-ES" : "dominó"}
       },
       "passed" : {
@@ -107,6 +120,7 @@
          "display" : {"de-DE" : "bestand",
                       "en-US" : "passed",
                       "fr-FR" : "a réussi",
+                      "ru-RU" : "сдал",
                       "es-ES" : "aprobó"}
       },
       "preferred" : {
@@ -114,6 +128,7 @@
          "display" : {"de-DE" : "bevorzugte",
                       "en-US" : "preferred",
                       "fr-FR" : "a préféré",
+                      "ru-RU" : "предпочел",
                       "es-ES" : "prefirió"}
       },
       "progressed" : {
@@ -121,6 +136,7 @@
          "display" : {"de-DE" : "machte Fortschritt mit",
                       "en-US" : "progressed",
                       "fr-FR" : "a progressé",
+                      "ru-RU" : "перешел",
                       "es-ES" : "progresó"}
       },
       "registered" : {
@@ -128,6 +144,7 @@
          "display" : {"de-DE" : "registrierte",
                       "en-US" : "registered",
                       "fr-FR" : "a enregistré",
+                      "ru-RU" : "зарегистрировался",
                       "es-ES" : "registró"}
       },
       "responded" : {
@@ -135,6 +152,7 @@
          "display" : {"de-DE" : "reagierte",
                       "en-US" : "responded",
                       "fr-FR" : "a répondu",
+                      "ru-RU" : "среагировал",
                       "es-ES" : "respondió"}
       },
       "resumed" : {
@@ -142,17 +160,20 @@
          "display" : {"de-DE" : "setzte fort",
                       "en-US" : "resumed",
                       "fr-FR" : "a repris",
+                      "ru-RU" : "продолжил",
                       "es-ES" : "continuó"}
       },
       "satisfied" : {
          "id" : "https://w3id.org/xapi/adl/verbs/satisfied",
-         "display" : {"en-US" : "satisfied"}
+         "display" : {"en-US" : "satisfied",
+                      "ru-RU" : "удовлетворил"}
       },
       "scored" : {
          "id" : "http://adlnet.gov/expapi/verbs/scored",
          "display" : {"de-DE" : "erreichte",
                       "en-US" : "scored",
                       "fr-FR" : "a marqué",
+                      "ru-RU" : "оценил",
                       "es-ES" : "anotó"}
       },
       "shared" : {
@@ -160,13 +181,15 @@
          "display" : {"de-DE" : "teilte",
                       "en-US" : "shared",
                       "fr-FR" : "a partagé",
+                      "ru-RU" : "поделился",
                       "es-ES" : "compartió"}
       },
       "suspended" : {
          "id" : "http://adlnet.gov/expapi/verbs/suspended",
          "display" : {"de-DE" : "pausierte",
-                      "en-US" : "suspended",
+                      "en-US" : "suspended",                      
                       "fr-FR" : "a suspendu",
+                      "ru-RU" : "приостановил",
                       "es-ES" : "aplazó"}
       },
       "terminated" : {
@@ -174,6 +197,7 @@
          "display" : {"de-DE" : "beendete",
                       "en-US" : "terminated",
                       "fr-FR" : "a terminé",
+                      "ru-RU" : "остановил",
                       "es-ES" : "terminó"}
       },
       "voided" : {
@@ -181,11 +205,13 @@
          "display" : {"de-DE" : "entwertete",
                       "en-US" : "voided",
                       "fr-FR" : "a annulé",
+                      "ru-RU" : "аннулировал",
                       "es-ES" : "anuló"}
       },
       "waived" : {
          "id" : "https://w3id.org/xapi/adl/verbs/waived",
-         "display" : {"en-US" : "waived"}
+         "display" : {"en-US" : "waived",
+                      "ru-RU" : "пропустил"}
       }
    };
 }(window.ADL = window.ADL || {}));
